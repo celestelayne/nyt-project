@@ -1,0 +1,24 @@
+{
+  "name": "nyt-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "C Layne",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-util": "^3.0.7"
+  }
+}
